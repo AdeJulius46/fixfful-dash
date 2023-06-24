@@ -4,7 +4,7 @@ button {
   font-family: "Inter", sans-serif;
 }
 :root {
-  --offcanvas-width: 270px;
+  --offcanvas-width: 240px;
   --topNavbarHeight: 56px;
 }
 .sidebar-nav {
@@ -19,8 +19,16 @@ button {
   body {
     overflow: auto !important;
   }
+
+
+
+  .navbar{
+    display: none !important;
+  }
   main {
     margin-left: var(--offcanvas-width);
+    height: auto !important;
+    background-color: rgb(13, 79, 202) !important;
   }
   /* this is to remove the backdrop */
   .offcanvas-backdrop::before {
@@ -30,8 +38,8 @@ button {
     -webkit-transform: none;
     transform: none;
     visibility: visible !important;
-    height: calc(100% - var(--topNavbarHeight));
-    top: var(--topNavbarHeight);
+    /* height: calc(100% - var(--topNavbarHeight));
+    top: var(--topNavbarHeight); */
   }
 }
 .purple{
@@ -89,7 +97,13 @@ button {
   margin-right: 9px;
 }
 .yh{
-  margin-right: 20px;
+  /* border: thick solid red ; */
+ margin-right: 30px;
+}
+
+.left-b{
+  border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .hy{
   border: thick solid red ;
@@ -101,6 +115,7 @@ button {
  background-color: purple;
  border-radius: 20px; 
  color: white;
+ margin-left: 30px !important;
 }
 .text{
   font-size: 19px;
@@ -162,4 +177,34 @@ button {
 
 .supe{
   margin-top: 80px !important;
+}
+
+
+
+.fix-nwboard{
+  background-color: black;
+  /* width: 20vw !important; */
+  height: 50vh !important;
+  border-radius: 25px !important;
+  color: white;
+  /* margin-top: 210px; */
+  font-family: "Raleway" !important;
+}
+.fix-nwboard:hover{
+  background-color:rgb(13, 79, 202);
+}
+
+
+.new-board-p{
+  margin-left: 30px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+
+.left-side{
+  color: rgb(0, 0, 0) !important;
+  font-family: "Raleway" !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
 }
