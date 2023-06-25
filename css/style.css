@@ -4,15 +4,16 @@ button {
   font-family: "Inter", sans-serif;
 }
 :root {
-  --offcanvas-width: 240px;
+  --offcanvas-width: 260px;
   --topNavbarHeight: 56px;
 }
 .sidebar-nav {
-  width: var(--offcanvas-width);
+  width: var(--offcanvas-width)
 }
 .sidebar-link {
   display: flex;
   align-items: center;
+ 
 }
 
 @media (min-width: 992px) {
@@ -37,10 +38,15 @@ button {
   .sidebar-nav {
     -webkit-transform: none;
     transform: none;
+    /* margin-top: 40px !important; */
     visibility: visible !important;
     /* height: calc(100% - var(--topNavbarHeight));
     top: var(--topNavbarHeight); */
   }
+ .top{
+  margin-top: 70px !important;
+} 
+
 }
 .purple{
   background-color: purple;
@@ -98,7 +104,10 @@ button {
 }
 .yh{
   /* border: thick solid red ; */
- margin-right: 30px;
+ margin-right: 40px;
+}
+.yui{
+  border: thick solid red ;
 }
 
 .left-b{
@@ -115,13 +124,12 @@ button {
  background-color: purple;
  border-radius: 20px; 
  color: white;
- margin-left: 30px !important;
 }
 .text{
-  font-size: 19px;
+  font-size: 19px !important;
 }
 .p-text{
-  font-size: 14px;
+  font-size: 14px !important;
 
 }
 .not{
@@ -161,7 +169,7 @@ button {
   background-color: rgb(13, 79, 202);
   color: white !important;
   height: 40px !important;
-  /* width: 200px; */
+  width: 200px !important;
   font-size: 16px;
   border: none;
   border-radius: 3px;
@@ -178,7 +186,8 @@ button {
 .supe{
   margin-top: 80px !important;
 }
-
+.main{
+  background-color: rgb(13, 79, 202) !important;}
 
 
 .fix-nwboard{
@@ -208,3 +217,11 @@ button {
   font-weight: 700 !important;
   font-size: 14px !important;
 }
+
+
+
+.deco{
+  text-decoration: none;
+  color: white;
+}
+.bge{background-color: white;}
