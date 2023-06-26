@@ -21,9 +21,14 @@ button {
   body {
     overflow: auto !important;
   }
+  .titi{
+    border-right: thin solid black !important;
+  }
 
-
-
+  .carde{
+    width: 15.5vw !important;
+    height: 33vh !important;
+  }
   .navbar{
     display: none !important;
   }
@@ -54,10 +59,10 @@ button {
   color: white;
 }
 .ellipse{
-  position: absolute;
+  /* position: absolute; */
   rotate: 90deg;
-  margin-top: 30px;
-  margin-left: 170px;
+  /* margin-top: 30px; */
+  color: white;
 }
 
 .offe{
@@ -114,6 +119,7 @@ button {
 .left-b{
   border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    background-color: white;
 }
 .hy{
   border: thick solid red ;
@@ -206,9 +212,8 @@ button {
 
 
 .new-board-p{
-  margin-left: 30px;
-  margin-top: 20px;
-  position: absolute;
+
+ 
 }
 
 
@@ -267,4 +272,31 @@ button {
   margin-left: -80px;
   rotate: 120deg;
   opacity: 05%;
+}
+
+/* .regu{
+ position: absolute !important;
+ margin-top: 40px; 
+}
+.reg{
+  position: relative !important; 
+} */
+
+.card-s{
+  border-radius: 15px;
+  background-color: rgb(191, 214, 234);
+}
+
+
+
+.h-text{
+  font-size: 15px !important;
+  font-weight: 350 !important;
+
+}
+.p-text{
+  font-size: 11px !important;
+  font-weight: 200 !important;
+  width: 160px;
+  line-height: 15px !important;
 }
