@@ -112,8 +112,10 @@ button {
 }
 .calender-logo{
   position: absolute;
-  margin-top: -40px;
-  margin-right: 9px;
+  /* margin-top: -40px;
+  margin-right: 9px; */
+  top: -4px;
+  right: 2px;
 }
 .yh{
   /* border: thick solid red ; */
@@ -219,11 +221,6 @@ button {
 }
 
 
-.new-board-p{
-
- 
-}
-
 
 .left-side{
   color: rgb(0, 0, 0) !important;
@@ -236,7 +233,7 @@ button {
 
 .deco{
   text-decoration: none;
-  color: white;
+  color: white !important;
 }
 .bge{background-color: white;}
 
@@ -262,7 +259,6 @@ button {
 .head-in{
   font-size: 20px !important;
   font-weight: 500 !important;
- 
 }
 
 .input-pers{
